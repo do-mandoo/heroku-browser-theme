@@ -1,6 +1,6 @@
 // 배경 사진 랜덤
 export const img = () => {
-  const $container = document.querySelector('.container');
+  const $container = document.querySelector('.main_container');
   fetch('../../image.json')
     .then(res => {
       return res.json();
